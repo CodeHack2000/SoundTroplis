@@ -1,0 +1,6 @@
+REACT = 3000
+ARTISTS = 5100
+AUTH = 5000
+REVIEWS = 5200
+
+http://localhost

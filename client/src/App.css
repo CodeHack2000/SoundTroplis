@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(188, 219, 245);
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+  border: 2px dashed black;
+  width: 400px;
+}
+
+.formContainer input {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.formContainer button {
+  margin-bottom: 20px;
+}
+
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+}
+
+.dashboardContainer button {
+  margin-top: 20px;
+}
+
+.dashboardContainer button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.buttonPage {
+  margin-top: 30px;
+}
+
+.buttonPage a {
+  text-decoration: none;
+  color: black;
+}
+
+.rightsContainer {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px dashed black;
+}
+
+.rightsContainer label {
+  margin-right: 5px;
+}
+
+.navbar button {
+  margin-right: 10px;
+}
+
+.navbar button a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.btnExpress {
+  margin-top: 40px;
+}
