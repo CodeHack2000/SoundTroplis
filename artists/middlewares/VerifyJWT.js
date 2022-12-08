@@ -1,6 +1,6 @@
-const jwt = require("../auth/node_modules/jsonwebtoken")
-const logger = require("../auth/logger")
-require("../auth/node_modules/dotenv").config({path: '../auth/.env'})
+const jwt = require("jsonwebtoken")
+const logger = require("../logger")
+require("dotenv").config({path: '../.env'})
 
 const VerifyJWT = (req, res, next) => {
     const token = req.cookies.token

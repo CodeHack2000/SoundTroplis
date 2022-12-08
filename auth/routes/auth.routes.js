@@ -1,10 +1,10 @@
 const express = require('express')
 const router = express.Router()
 const authC = require("../controllers/auth.controller")
-const {VerifyJWT} = require("../../middlewares/VerifyJWT")
-const {VerifyRoles} = require("../../middlewares/VerifyRoles")
-const {VerifyRefToken} = require("../../middlewares/VerifyRefToken")
-const roles = require("../../config/roles")
+const {VerifyJWT} = require("../middlewares/VerifyJWT")
+const {VerifyRoles} = require("../middlewares/VerifyRoles")
+const {VerifyRefToken} = require("../middlewares/VerifyRefToken")
+const roles = require("../config/roles")
 const rateLimit = require('express-rate-limit')
 
 const loginLimiter = rateLimit({

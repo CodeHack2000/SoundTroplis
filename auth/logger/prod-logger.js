@@ -11,7 +11,7 @@ function buildProdLogger() {
         defaultMeta: {service: 'auth-service'},
         transports: [
             new transports.Console(),
-            new transports.File({filename: 'application.log'}),
+            new transports.File({filename: 'application_auth.log'}),
         ],
     })
 }

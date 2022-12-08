@@ -1,10 +1,10 @@
 const express = require('express')
 const router = express.Router()
 const reviewC = require("../controllers/review.controller")
-const {VerifyJWT} = require("../../middlewares/VerifyJWT")
-const {VerifyRoles} = require("../../middlewares/VerifyRoles")
-const {VerifyRefToken} = require("../../middlewares/VerifyRefToken")
-const roles = require("../../config/roles")
+const {VerifyJWT} = require("../middlewares/VerifyJWT")
+const {VerifyRoles} = require("../middlewares/VerifyRoles")
+const {VerifyRefToken} = require("../middlewares/VerifyRefToken")
+const roles = require("../config/roles")
 
 // Get Routes
 router.post('/getAllActiveReviewsOfArtist', [VerifyRefToken, VerifyJWT], reviewC.getAllActiveReviewsOfArtist)

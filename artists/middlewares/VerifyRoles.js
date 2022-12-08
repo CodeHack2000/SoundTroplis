@@ -1,4 +1,4 @@
-const logger = require("../auth/logger")
+const logger = require("../logger")
 
 const VerifyRoles = (...allowedRoles) => {
     return (req, res, next) => {

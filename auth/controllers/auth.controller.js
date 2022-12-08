@@ -1,7 +1,7 @@
 const UserModel = require("../models/User")
 const bcrypt = require("bcryptjs")
 const jwt = require("jsonwebtoken")
-const roles = require("../../config/roles")
+const roles = require("../config/roles")
 const logger = require("../logger")
 
 exports.newToken = (req, res) => {

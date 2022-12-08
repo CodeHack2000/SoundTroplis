@@ -1,10 +1,10 @@
 const express = require('express')
 const artistC = require("../controllers/artist.controller")
 const router = express.Router()
-const {VerifyJWT} = require("../../middlewares/VerifyJWT")
-const {VerifyRoles} = require("../../middlewares/VerifyRoles")
-const {VerifyRefToken} = require("../../middlewares/VerifyRefToken")
-const roles = require("../../config/roles")
+const {VerifyJWT} = require("../middlewares/VerifyJWT")
+const {VerifyRoles} = require("../middlewares/VerifyRoles")
+const {VerifyRefToken} = require("../middlewares/VerifyRefToken")
+const roles = require("../config/roles")
 
 // Get Routes
 router.get('/getAllArtists', [VerifyRefToken, VerifyJWT], artistC.getAllArtists)

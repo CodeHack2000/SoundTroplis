@@ -1,7 +1,7 @@
 FROM node:18
 
 # Working Dir
-WORKDIR /usr/src/authApp
+WORKDIR /usr/src/authService
 
 # Copy Package Json
 COPY package*.json ./

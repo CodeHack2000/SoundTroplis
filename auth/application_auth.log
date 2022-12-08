@@ -1,0 +1,7 @@
+{"level":"info","message":"Server Running!","service":"auth-service","timestamp":"2022-12-08T23:43:55.607Z"}
+{"level":"info","message":"DB Connected!","service":"auth-service","timestamp":"2022-12-08T23:43:56.209Z"}
+{"level":"error","message":"Request without refresh_token! - /isAuth","service":"auth-service","timestamp":"2022-12-08T23:45:00.624Z"}
+{"level":"error","message":"Request without refresh_token! - /isAuth","service":"auth-service","timestamp":"2022-12-08T23:45:00.648Z"}
+{"level":"error","message":"Request without refresh_token! - /newToken","service":"auth-service","timestamp":"2022-12-08T23:45:00.662Z"}
+{"level":"error","message":"Request without refresh_token! - /newToken","service":"auth-service","timestamp":"2022-12-08T23:45:00.676Z"}
+{"level":"info","message":"User logged in successfully! - UserId: 6384df9ca44694ee0f6e69e6","service":"auth-service","timestamp":"2022-12-08T23:45:05.508Z"}
