@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: authserver-deployment
+  labels:
+    app: authserver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: authserver
+  template:
+    metadata:
+      labels:
+        app: authserver
+    spec:
+      containers:
+      - name: auth-server
+        image: vladylav/auth_service:latest
+        ports:
+        - containerPort: 5000
